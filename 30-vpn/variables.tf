@@ -18,16 +18,4 @@ variable "common_tags" {
   }
 }
 
-variable "zone_id" {
-  type        = string
-  default     = "Z081269113O3DYPRH684B"
-}
-
-variable "domain_name" {
-  type        = string
-  default     = "daws82s.fun"
-}
-
-
-
 

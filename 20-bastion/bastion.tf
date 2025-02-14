@@ -1,4 +1,3 @@
-
 resource "aws_instance" "bastion" {
   ami                    = data.aws_ami.joindevops.id
   vpc_security_group_ids = [data.aws_ssm_parameter.bastion_sg_id.value]
