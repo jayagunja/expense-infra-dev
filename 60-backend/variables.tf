@@ -18,6 +18,11 @@ variable "common_tags" {
   }
 }
 
+variable "domain_name" {
+  type        = string
+  default     = "daws82s.fun"
+}
+
 
 
 
